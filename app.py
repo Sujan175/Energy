@@ -6,8 +6,8 @@ import numpy as np
 import sklearn 
 
 app = Flask(__name__)
-model_1 = pickle.load(open('HL_model.pkl', 'rb'))
-model_2 = pickle.load(open('CL_model.pkl', 'rb'))
+model_1 = pickle.load(open('HL_MODEL.pkl', 'rb'))
+model_2 = pickle.load(open('CL_MODEL.pkl', 'rb'))
 @app.route('/',methods=['GET'])
 def Home():
     return render_template('index.html')
