@@ -27,3 +27,19 @@ The imput parameters are-
    - pip install -r requirements.txt
 4. Run the app: 
    - python app.py
+ 
+# Workflow
+
+## Data Collection: [link](https://archive.ics.uci.edu/ml/datasets/energy+efficiency)
+
+## Data-Preprocessing:
+* Check for missing values
+* Since all the features are numerical values, No need to perform data-preprocessing
+
+## Model Selection:
+* Different regressor models were tried and out of these randomforestregressor was chosen.
+* The conclusion was made using MSE, MAE, RMSE scores.
+* Performed hyperparameter tuning to improve performance.
+
+## Deployment:
+The model is deployed using flask on heroku.
