@@ -17,3 +17,9 @@ The imput parameters are-
 * Front-End: HTML, Bootstrap
 * Back-End: Flask
 * IDE: VScode, Jupyter Notebook
+
+# How to run the app
+* First create a virtual environment by using this command: conda create -n myenv python=3.7
+* Activate the environment using the command: conda activate myenv
+* Install the necessary packages: pip install -r requirements.txt
+* Run the app: python app.py
