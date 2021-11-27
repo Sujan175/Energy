@@ -12,3 +12,8 @@ The imput parameters are-
 8. Glazing Variations - 1:Uniform, 2:North, 3:East, 4:South, 5:West
 
 # Webpage link: [link](https://energyeff.herokuapp.com/)
+
+# Tech Stack
+* Front-End: HTML, Bootstrap
+* Back-End: Flask
+* IDE: VScode, Jupyter Notebook
