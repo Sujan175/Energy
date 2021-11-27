@@ -19,7 +19,11 @@ The imput parameters are-
 * IDE: VScode, Jupyter Notebook
 
 # How to run the app
-* First create a virtual environment by using this command: conda create -n myenv python=3.7
-* Activate the environment using the command: conda activate myenv
-* Install the necessary packages: pip install -r requirements.txt
-* Run the app: python app.py
+1. First create a virtual environment by using this command: 
+   conda create -n myenv python=3.7
+2. Activate the environment using the command: 
+   conda activate myenv
+3. Install the necessary packages: 
+   pip install -r requirements.txt
+4. Run the app: 
+   python app.py
