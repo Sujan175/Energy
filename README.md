@@ -11,14 +11,14 @@ The imput parameters are-
 7. Glazing Area- 0%, 10%, 25%, 40%
 8. Glazing Variations - 1:Uniform, 2:North, 3:East, 4:South, 5:West
 
-# Webpage link: [link](https://energyeff.herokuapp.com/)
+## Webpage link: [link](https://energyeff.herokuapp.com/)
 
-# Tech Stack
+## Tech Stack
 * Front-End: HTML, Bootstrap
 * Back-End: Flask
 * IDE: VScode, Jupyter Notebook
 
-# How to run the app
+## How to run the app
 1. First create a virtual environment by using this command: 
    - conda create -n myenv python=3.7
 2. Activate the environment using the command: 
@@ -28,18 +28,18 @@ The imput parameters are-
 4. Run the app: 
    - python app.py
  
-# Workflow
+## Workflow
 
-## Data Collection: [link](https://archive.ics.uci.edu/ml/datasets/energy+efficiency)
+### Data Collection: [link](https://archive.ics.uci.edu/ml/datasets/energy+efficiency)
 
-## Data-Preprocessing:
+### Data-Preprocessing:
 * Check for missing values
 * Since all the features are numerical values, No need to perform data-preprocessing
 
-## Model Selection:
+### Model Selection:
 * Different regressor models were tried and out of these randomforestregressor was chosen.
 * The conclusion was made using MSE, MAE, RMSE scores.
 * Performed hyperparameter tuning to improve performance.
 
-## Deployment:
+### Deployment:
 The model is deployed using flask on heroku.
